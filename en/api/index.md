@@ -18,8 +18,6 @@ It will be called server-side once (on the first request to the Nuxt app) and cl
 This method receives the [`context`](/api/context) object as the first argument, you can use it to fetch some data and return the component data.
 
 
-The result from asyncData will be **merged** with data.
-
 ```js
 export default {
   data () {
